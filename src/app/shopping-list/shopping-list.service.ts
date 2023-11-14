@@ -18,4 +18,8 @@ export class ShoppingListService {
   onAddIngredient(ingredient: Ingredient) {
     this.Ingredients.push(ingredient);
   }
+
+  addingIngredient(ingredient: Ingredient[]) {
+    this.Ingredients.push(...ingredient);
+  }
 }
