@@ -12,7 +12,7 @@ export class ShoppingListService {
   constructor() { }
 
   getShoppingList() {
-    return this.Ingredients.slice();
+    return this.Ingredients;
   }
 
   onAddIngredient(ingredient: Ingredient) {
